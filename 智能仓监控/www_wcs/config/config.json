@@ -1,0 +1,17 @@
+// 端口为配置vlc时设置的端口
+// stream为配置端口时配置的路径
+
+video([{
+    "video1": {
+        "url": "http://localhost:9623/stream"
+    },
+    "video2": {
+        "url": "http://localhost:9625/stream"
+    },
+    "video3": {
+        "url": "http://localhost:9626/stream"
+    },
+    "video4": {
+        "url": "http://localhost:9627/stream"
+    }
+}])
